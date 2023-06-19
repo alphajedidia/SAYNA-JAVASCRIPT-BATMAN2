@@ -1,0 +1,63 @@
+header .navElem #home{
+    text-decoration: none;
+    color: #cbcbcb;
+    margin-right: 2rem;
+}
+header .navElem #home:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+header{
+    background-image: url(../Assets/Illustrations2/Batgame_1.png);
+}
+header .intro1{
+    color: #fff;
+    padding:10rem 0rem 20rem 12vw;
+}
+.demarrer{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+button{
+    margin: 3rem;
+    padding: 1rem 3rem;
+    color: #fff;
+    background-image:linear-gradient(to right, rgb(122, 122, 122)  , rgb(147, 86, 7) ) ;
+    border: none;
+    font-size: 0.7rem;
+}
+label{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.question p{
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.next{
+    display: flex;
+    justify-content: center;
+}
+.reponse{
+    background-color: #717171;
+    width: 30vw;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+.questionCard{
+    display: flex;
+    justify-content: center;
+}
+/* .question1{
+    display: block;
+} */
+footer{
+    margin-top: 7rem;
+}
