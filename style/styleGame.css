@@ -36,6 +36,12 @@ label{
     color: #fff;
     font-size: 1.2rem;
 }
+.frame {
+    display: none;
+}
+.frame:first-child{
+    display: block;
+}
 .question p{
     color: #fff;
     margin-top: 2rem;
@@ -55,40 +61,21 @@ label{
     display: flex;
     justify-content: center;
 }
-.question1{
-    display: block;
-
-}
-.question2{
-    display: block;
-}
 .question2 img{
     height: 10rem;
     margin-top: 4rem;
     margin-right: 3rem;
 }
-.question3{
-    display: block;
-}
 .question3 .questionCard{
     margin-left: -10rem;
-}
-.question4{
-    display: block;
 }
 .question4 img{
     width: 10rem;
     height: 10rem;
 }
-.question5{
-    display: block;
-}
 .question5 img{
     height: 5rem;
     margin-top: 7rem;
-}
-.question6{
-    display: block;
 }
 .question6 img{
     height: 7rem;
@@ -111,9 +98,6 @@ label{
     position: relative;
     right: -4rem;
 }
-.question7{
-    display: block;
-}
 .question7 img{
     height: 14rem;
 }
@@ -123,14 +107,8 @@ label{
 .question7 button{
     margin-left: -1rem;
 }
-.question8 {
-    display: block;
-}
 .question8 .questionCard{
     margin-left: -7rem;
-}
-.question9{
-    display: block;
 }
 .question9 #Pingouin9{
     height: 10rem;
@@ -148,9 +126,6 @@ label{
     margin-right: -30rem;
     height: 12rem;
 }
-.question10 {
-    display: block;
-}
 .question10 #Joker10{
     margin-top: 2rem;
     margin-right: 3rem;
@@ -167,18 +142,12 @@ label{
     height: 8rem;
     margin-left: -5rem;
 }
-.question11{
-    display: block;
-}
 .question11 .questionCard{
     margin-left: -9rem;
 }
 .question11 img{
     height: 15rem;
     margin-top: 2rem;
-}
-.question12{
-    display: block;
 }
 .question12 .questionCard{
     margin-left: -3rem;
@@ -187,17 +156,11 @@ label{
     height: 15rem;
     margin-right: 2rem;
 }
-.question13 {
-    display: block;
-}
 .question13 .questionCard{
     margin-left: -5rem;
 }
 .question13 img{
     height: 18rem;
-}
-.question14 {
-    display: block;
 }
 .question14 .questionCard{
     margin-left: -5rem;
@@ -206,9 +169,6 @@ label{
     margin-top: 4rem;
     height: 10rem;
 }
-.question15{
-    display: block;
-}
 .question15 .questionCard{
     margin-left: -2rem;
 }
@@ -216,6 +176,9 @@ label{
     height: 12rem;
     margin-top: 2rem;
     margin-right: 2rem;
+}
+#result{
+    display: none;
 }
 footer{
     margin-top: 7rem;
