@@ -5,7 +5,6 @@ for(let x in next){
     next[x].addEventListener("click",()=>{
         if(x == 15){
             console.log("ok")
-            
         }
         else{
             let y = 1
