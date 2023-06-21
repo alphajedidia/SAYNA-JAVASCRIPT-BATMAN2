@@ -51,6 +51,57 @@
       ]
     },
     {
+      "question": "Qui a realisé Batman en 1966 ?",
+      "response": [
+        {
+          "text": "Stanley Kubrick",
+          "isGood": false
+        },
+        {
+          "text": "Andy Warhol",
+          "isGood": false
+        },
+        {
+          "text": "Leslie Martinson",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Batman c’est aussi le nom d’une ville en...",
+      "response": [
+        {
+          "text": "Islande",
+          "isGood": false
+        },
+        {
+          "text": "Turquie",
+          "isGood": true
+        },
+        {
+          "text": "Allemagne",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quel vilain apparaît pour la première fois dans le Batman 232 ?",
+      "response": [
+        {
+          "text": "Le Pingouin",
+          "isGood": false
+        },
+        {
+          "text": "Ra’s al Ghul",
+          "isGood": true
+        },
+        {
+          "text": "Poison Ivy",
+          "isGood": false
+        }
+      ]
+    },
+    {
       "question": "Quelle ville Batman défend-il ?",
       "response": [
         {
@@ -85,23 +136,6 @@
       ]
     },
     {
-      "question": "Quel est le prénom des parents du jeune Bruce Wayne ?",
-      "response": [
-        {
-          "text": "Matina et Adam",
-          "isGood": false
-        },
-        {
-          "text": "Elaine et Georges",
-          "isGood": true
-        },
-        {
-          "text": "Martha et James",
-          "isGood": false
-        }
-      ]
-    },
-    {
       "question": "Dans son premier Batman (1989) Jack Nicholson jouait :",
       "response": [
         {
@@ -114,6 +148,61 @@
         },
         {
           "text": "Le Geek",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Qui est Jonathan Crane ?",
+      "response": [
+        {
+          "text": "L’Épouvantail",
+          "isGood": false
+        },
+        {
+          "text": "Le Joker",
+          "isGood": true
+        },
+        {
+          "text": "Hugo Strange",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Qui est l’interprète de Catwoman dans le nouveau Batman de Matt Reeves (2022) ?",
+      "response": [
+        {
+          "text": "Emma Watson",
+          "isGood": false
+        },
+        {
+          "text": "Gigi Hadid",
+          "isGood": true
+        },
+        {
+          "text": "Lola Iolani Momoa",
+          "isGood": false
+        },
+        {
+          "text": "Zoë Kravitz",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quel est le prénom des parents du jeune Bruce Wayne ?",
+      "response": [
+        {
+          "text": "Matina et Adam",
+          "isGood": false
+        },
+        {
+          "text": "Elaine et Georges",
+          "isGood": true
+        },
+        {
+          "text": "Martha et James",
           "isGood": false
         }
       ]
@@ -166,40 +255,6 @@
         {
           "text": "L'Epouvantail",
           "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Batman c’est aussi le nom d’une ville en...",
-      "response": [
-        {
-          "text": "Islande",
-          "isGood": false
-        },
-        {
-          "text": "Turquie",
-          "isGood": true
-        },
-        {
-          "text": "Allemagne",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Qui a realisé Batman en 1966 ?",
-      "response": [
-        {
-          "text": "Stanley Kubrick",
-          "isGood": false
-        },
-        {
-          "text": "Andy Warhol",
-          "isGood": false
-        },
-        {
-          "text": "Leslie Martinson",
-          "isGood": true
         }
       ]
     }

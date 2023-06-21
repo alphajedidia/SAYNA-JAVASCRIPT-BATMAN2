@@ -1,9 +1,7 @@
-const api_url = 'https://'
-async function getData(){
-    const resp = await fetch(api_url);
-    const data = await resp.json();
-    const {question , response} = data
-    console.log(question)
-    console.log(response)
+fetch("../js/api.json")
+    .then(response => response.json())
+    .then(data => show(data));
+
+function show(data){
+    console.table(data[0].question);
 }
-getData()
